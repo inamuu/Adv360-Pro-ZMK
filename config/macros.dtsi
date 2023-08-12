@@ -1,3 +1,9 @@
+macro_backquote: macro_backquote{
+compatible = "zmk,behavior-macro";
+label = "macro_backquote";
+#binding-cells = <0>;
+bindings = <&kp SPACE>, <&kp GRAVE>, <&kp GRAVE>, <&kp SPACE>, <&kp LEFT_ARROW>, <&kp LEFT_ARROW>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
